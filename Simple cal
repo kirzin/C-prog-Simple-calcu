@@ -7,7 +7,7 @@ int main()
 int a,num1,num2,result;
 char option;
 do{
-        p("\nSIMPLE CALCULATOR MADE BY JL AGANAN ^-^\n \n");
+        p("\nSIMPLE CALCULATOR MADE BY Kirzin ^-^\n \n");
 p("choose operation you want to do\n");
 p("press 1 to add\n");
 p("press 2 to sub\n");
