@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define p printf
+#define s scanf
+int main()
+{
+int a,num1,num2,result;
+char option;
+do{
+        p("\nSIMPLE CALCULATOR MADE BY JL AGANAN ^-^\n \n");
+p("choose operation you want to do\n");
+p("press 1 to add\n");
+p("press 2 to sub\n");
+p("press 3 to multi\n");
+p("press 4 to div\n");
+s(" %d",&a);
+p("enter a number:\n");
+s(" %d",&num1);
+p("enter a number:\n");
+s(" %d",&num2);
+
+switch(a){
+
+case 1:result=num1+num2;
+p("answer: %d\n",result);
+break;
+case 2:result=num1-num2;
+p("answer: %d\n",result);
+break;
+case 3:result=num1*num2;
+p("answer: %d\n",result);
+break;
+case 4:result=num1/num2;
+p("answer: %d\n",result);
+break;
+default:printf("wrong input\n");
+}
+p("Do you want to continue y/n?\n");
+option=getche();
+}
+while(option=='y');
+if(option=='n'){
+    p("\n BYE BYE THANKS FOR USING MY THIS");}
+return 0;
+}
